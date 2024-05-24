@@ -48,6 +48,10 @@ func main() {
 	fmt.Println("|              \x1b[32mSELAMAT DATANG\x1b[0m              |")
 	fmt.Println("|             \x1b[32mAVICENNA HOSPITAL\x1b[0m             |")
 	fmt.Println("======================================================")
+	fmt.Println("|          Keisha Hernantya Zahra 103052330063       |")
+	fmt.Println("|               Muhammad Umar 103052330102           |")
+	fmt.Println("|                       DS-47-03                     |")
+	fmt.Println("======================================================")
 	jedawaktu(3)
 	cls()
 	loading()
@@ -486,6 +490,7 @@ func sortPaketByName(b *tabPaket, p int) {
 }
 
 func Header() {
+	fmt.Println("=========================================================")
 	fmt.Println("=========== \x1b[32mAvicenna Hospital\x1b[0m ============")
 	fmt.Println("=============== \x1b[32mMenu Utama\x1b[0m ===============")
 	fmt.Println("|1. Input Data                           |")
@@ -499,12 +504,14 @@ func Header() {
 }
 
 func HeaderinputData() {
-	fmt.Println("=========== Menu Input Data ===========")
-	fmt.Println("1. Input Data Pasien")
-	fmt.Println("2. Input Data Paket")
-	fmt.Println("3. Kembali ke Menu Utama")
-	fmt.Println("4. Keluar")
-	fmt.Println("========================================")
+	fmt.Println("=========================================================")
+	fmt.Println("=========== \x1b[32mAvicenna Hospital\x1b[0m ============")
+	fmt.Println("==================== Menu Input Data ====================")
+	fmt.Println("|1. Input Data Pasien                                   |")
+	fmt.Println("|2. Input Data Paket                                    |")
+	fmt.Println("|3. Kembali ke Menu Utama                               |")
+	fmt.Println("|4. Keluar                                              |")
+	fmt.Println("=========================================================")
 }
 
 func Headerinput1() {
@@ -521,10 +528,10 @@ func headerregistrasi() {
 
 func headerregistrasi21(){ // ? Procedure untuk tampilan awal registrasi 
 
-	fmt.Println("========================================================")
-	fmt.Println("| 	        Aplikasi Medical Check Up	       |")
-	fmt.Println("========================================================")
-	fmt.Println("|Silahkan Tentukan Pilihan Anda                        |")
+	fmt.Println("=========================================================")
+	fmt.Println("=========== \x1b[32mAvicenna Hospital\x1b[0m ============")
+	fmt.Println("===================== Selamat Datang =====================")
+	fmt.Println("|Silahkan Tentukan Pilihan Anda:                        |")
 	fmt.Println("|1.📌 Sign Up		                               |")
 	fmt.Println("|2.📌 Sign In				               |")
 	fmt.Println("|3.❌ Exit			                       |")
@@ -533,19 +540,24 @@ func headerregistrasi21(){ // ? Procedure untuk tampilan awal registrasi
 
 }
 func headerregistrasi2() {
-	fmt.Println("========== Registrasi ==========")
-	fmt.Println("1. Registrasi")
-	fmt.Println("2. Login")
-	fmt.Println("3. Keluar")
-	fmt.Println("================================")
+	fmt.Println("=========================================================")
+	fmt.Println("=========== \x1b[32mAvicenna Hospital\x1b[0m ============")
+	fmt.Println("====================== Registrasi ======================")
+	fmt.Println("|Silahkan Tentukan Pilihan Anda:                        |")
+	fmt.Println("|1.📝 Registrasi                                       |")
+	fmt.Println("|2.🏠 Login                                            |")
+	fmt.Println("|3.❌ Keluar                                           |")
+	fmt.Println("========================================================")
 }
 
 func headerlogin() {
-	fmt.Println("========== Login ==========")
-	fmt.Println("1. Menu Utama")
-	fmt.Println("2. Logout")
-	fmt.Println("3. Keluar")
-	fmt.Println("================================")
+	fmt.Println("=========================================================")
+	fmt.Println("=========== \x1b[32mAvicenna Hospital\x1b[0m ============")
+	fmt.Println("========================= Login =========================")
+	fmt.Println("|1.🖥️ Menu Utama                                          |")
+	fmt.Println("|2.🔐 Logout                                              |")
+	fmt.Println("|3.❌ Keluar                                              |")
+	fmt.Println("===========================================================")
 }
 
 func jedawaktu(detik int) { // ? Procedure untuk jeda waktu
