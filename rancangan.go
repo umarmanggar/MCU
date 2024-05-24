@@ -45,7 +45,7 @@ func main() {
 	var c tabPaket
 	var n, m, p int
 	fmt.Println("======================================================")
-	fmt.Println("|              \x1b[32mSELAMAT DATANG\x1b[0m               |")
+	fmt.Println("|              \x1b[32mSELAMAT DATANG\x1b[0m              |")
 	fmt.Println("|             \x1b[32mAVICENNA HOSPITAL\x1b[0m             |")
 	fmt.Println("======================================================")
 	jedawaktu(3)
